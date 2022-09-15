@@ -1,0 +1,2 @@
+/***…* @author CK_Wong*/
+var timer=0;function enterFrame_tick(a){fpsLabel.text="";timer+=a.delta;fpsLabel.text=""+Math.round(createjs.Ticker.getMeasuredFPS())+"fps\n"+timeConvert(timer);stage.addChild(fpsLabel);stage.update(a)};

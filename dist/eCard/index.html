@@ -1,0 +1,65 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+ 	<link rel="stylesheet" href="style.css" type="text/css" charset="utf-8" />
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="viewport" content="width=device-width, maximum-scale=1, user-scalable=false">
+    <script type="text/javascript" src="lib/jquery-2.1.1.min.js"></script>
+    <!--<script type="text/javascript" src="lib/metaJs.js"></script>-->
+    
+    <script type="text/javascript" src="lib/TweenMax.min.js"></script>
+    <script type="text/javascript" src="lib/easeljs-0.7.1.min.js"></script>
+    <script type="text/javascript" src="lib/preloadjs-0.4.1.min.js"></script>
+    <script type="text/javascript" src="lib/soundjs-0.6.0.min.js"></script>
+    <script type="text/javascript" src="lib/utils.ck-1.0.js"></script>
+    <!-- -->
+    <script type="text/javascript" src="js/main.js"></script>
+	<script type="text/javascript" src="js/responsive.js"></script>
+    <script type="text/javascript" src="js/canvas.js"></script>
+    <script type="text/javascript" src="js/preload.js"></script>    
+    <script type="text/javascript" src="js/interface.js"></script>
+    <script type="text/javascript" src="js/sound.js"></script>
+    <script type="text/javascript" src="js/engine.js"></script>
+    <script type="text/javascript" src="js/animationEnd.js"></script>
+    <script type="text/javascript" src="js/enterFrame.js"></script>
+    <script type="text/javascript" src="lib/mobileAgent.js"></script>
+	<!-- -->
+	<title>E-CARD</title>
+</head>
+<body>
+<div id="log">log massage<br></div>
+
+
+<div class="wrapper">
+	<div class="wrapTop">
+    	<div class="topFrame">
+            <div class="wrapTopLeft frameSprite left"></div>
+            <div class="wrapTopRpt frameRptVer"></div>
+            <div class="wrapTopRight frameSprite right"></div>
+            <div class="clear"></div>
+        </div>
+    </div>
+    
+    <div class="wrapMiddle">
+    	
+        <div class="wrapContent">
+			
+        	<!-- canvas !-->
+        	<div class="canvasHolder">
+            	<div class="wrapMLeft"></div>
+                <canvas id="gameCanvas" width="940px" height="1481px"></canvas>
+                <div class="wrapMRight"></div>
+            </div>
+            <!-- end of canvas !-->
+        </div>
+        
+    </div>
+    
+    <div class="wrapBot">
+    	<div class="wrapBotLeft frameSprite left"></div>
+        <div class="wrapBotRpt frameRptVer"></div>
+        <div class="wrapBotRight frameSprite right"></div>
+        <div class="clear"></div>
+    </div>
+</div>
+</body>
+</html>
